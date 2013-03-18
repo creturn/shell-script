@@ -1,0 +1,5 @@
+#!/bin/bash
+/usr/local/bin/memcached -d -m 10 -u root -l 127.0.0.1 -p 11211 -c 1024 -P /data/db/memcached.pid
+rm /data/db/mongod.lock -rf
+/data/mongodb/bin/mongod --fork --dbpath /data/db --port 27017 --logpath /data/log/mongoDB.log --logappend
+

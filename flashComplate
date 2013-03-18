@@ -1,0 +1,1 @@
+/home/return/soft/flex/bin/mxmlc  --show-actionscript-warnings=true --strict=false --debug=true --output=/home/return/workspace/www/test/test.swf /home/return/workspace/www/test/recordAd.as

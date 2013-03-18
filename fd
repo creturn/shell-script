@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -z $1 ];then
+echo '请输入要查找的信息！'
+exit
+fi
+cd ~/workspace/database/
+echo '正在查找中...'
+#find . -type f|xargs -n 4 -P 10 grep -s -r --color $1
+#grep  -s -r --color $1 ./* 
+grep -s -r --color $1 `find . -type f`

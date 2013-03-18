@@ -1,0 +1,1 @@
+/home/return/soft/flex/bin/mxmlc  --show-actionscript-warnings=false --strict=false --debug=true --library-path+=/home/return/workspace/flash/hsxy_flash/lib/ --output=/home/return/workspace/www/webgame/web/flash/main.swf /home/return/workspace/flash/hsxy_flash/src/main.as

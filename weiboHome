@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+#coding: utf-8
+import urllib2
+
+weibo_home_url = 'https://api.weibo.com/2/statuses/home_timeline.json?count=100&access_token=2.00s4MqTCW9otiBb803d5cc58LOZL_E'
+print urllib2.urlopen(weibo_home_url).read()

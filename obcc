@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc `gnustep-config --objc-flags` -lgnustep-base $1 -o $2
+

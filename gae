@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/return/soft/gae/local
+python proxy.py # > /dev/null 2>&1 

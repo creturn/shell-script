@@ -1,0 +1,2 @@
+sudo ssh -qTfnN -D 7070 root@blog
+notify-send '消息：' '代理服务器已经打开'
