@@ -1,0 +1,3 @@
+AppPackage=$1
+echo ${AppPackage} will build
+cat /Users/creturn/soft/dev/node-webkit-v0.8.4-win-ia32/nw.exe ${AppPackage} > ${AppPackage}.exe
